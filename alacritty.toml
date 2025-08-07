@@ -1,0 +1,50 @@
+# Documentation:
+# https://alacritty.org/config-alacritty.html
+
+[general]
+live_config_reload = true
+
+[env]
+
+[window]
+option_as_alt = "Both"
+padding = { x = 10, y = 10 }
+dynamic_padding = true
+decorations = "Buttonless"
+startup_mode = "Windowed"
+opacity = 0.99
+blur = true
+
+[scrolling]
+
+[font]
+normal = { family = "RobotoMono Nerd Font", style = "Regular" }
+size = 16.0
+
+[colors]
+[colors.primary]
+background = '#1b1b1b'
+foreground = '#c5c8c6'
+
+[colors.normal]
+black   = '#1d1f21'
+red     = '#cc342b'
+green   = '#26a269'
+yellow  = '#fba922'
+blue    = '#3971ed'
+magenta = '#a36ac7'
+cyan    = '#2aa1b3'
+white   = '#c5c8c6'
+
+[colors.bright]
+black   = '#969896'
+red     = '#cc342b'
+green   = '#33d17a'
+yellow  = '#fba922'
+blue    = '#3971ed'
+magenta = '#a36ac7'
+cyan    = '#33c7de'
+white   = '#ffffff'
+
+[cursor]
+style = { shape = "Block" }
